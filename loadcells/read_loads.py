@@ -2,7 +2,7 @@ from can_load import LoadController
 import time
 # CAN
 port = 'can0'
-id = 7
+id = 10
 loads = LoadController(port, id)
 
 
